@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "616284719617",
+    "project_id": "fir-5a38d",
+    "storage_bucket": "fir-5a38d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616284719617:android:1fd676ff6ba918f6ae8e00",
+        "android_client_info": {
+          "package_name": "com.example.tracker_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiZBPDi2y7Nde0zf3onOWM5-p377hcq8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
