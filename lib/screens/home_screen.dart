@@ -56,9 +56,11 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       appBar: AppBar(
         backgroundColor: Colors.blue.shade900,
-        title: Text(
-          "Hello",
-          style: TextStyle(color: Colors.white),
+        title:
+        Text("Hello !!",
+          style: TextStyle(color: Colors.white,
+          fontWeight: FontWeight.w800,
+          fontSize: 24),
         ),
         actions: [
           IconButton(
