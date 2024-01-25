@@ -23,14 +23,18 @@ class TypeTabBar extends StatelessWidget {
                 Expanded(
                     child: TabBarView(
                   children: [
-                    TransectionList(
-                        category: category,
-                        type: "credit",
-                        monthYear: monthYear),
-                    TransectionList(
-                        category: category,
-                        type: "debit",
-                        monthYear: monthYear),
+                    SingleChildScrollView(
+                      child: TransectionList(
+                          category: category,
+                          type: "credit",
+                          monthYear: monthYear),
+                    ),
+                    SingleChildScrollView(
+                      child: TransectionList(
+                          category: category,
+                          type: "debit",
+                          monthYear: monthYear),
+                    ),
                   ],
                 ))
               ],

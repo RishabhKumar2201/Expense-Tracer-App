@@ -33,7 +33,7 @@ class _CategoryListState extends State<CategoryList> {
   }
 
   // scrollToSelectedMonth() {
-  //   final selectedMonthIndex = months.indexOf(currentMonth);
+  //   final selectedMonthIndex = categorylist.indexOf(categorylist);
   //   if (selectedMonthIndex != -1) {
   //     final scrollOffset = (selectedMonthIndex * 100.0) - 170;
   //     scrollController.animateTo(scrollOffset,

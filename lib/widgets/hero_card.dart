@@ -146,7 +146,7 @@ class CardOne extends StatelessWidget {
               ),
               const Spacer(),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(5.0),
                 child: Icon(
                     heading == "Credit"
                         ? Icons.arrow_upward_outlined
